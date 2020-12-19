@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> The Blood Coders </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Princess+Sofia|Mansalva|Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="tree">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="star"></div>
+        <div class="base"></div>
+        <div class="shadow"></div>
+    </div>
+
+    <div class="small-star" style="--left:0%;--delay:1.3s"></div>
+    <div class="small-star" style="--left:10%;--delay:1.5s"></div>
+    <div class="small-star" style="--left:20%;--delay:1s"></div>
+    <div class="small-star" style="--left:30%;--delay:2s"></div>
+    <div class="small-star" style="--left:40%;--delay:1s"></div>
+    <div class="small-star" style="--left:20%;--delay:1.3s"></div>
+    <div class="small-star" style="--left:30%;--delay:1.6s"></div>
+    <div class="small-star" style="--left:40%;--delay:1s"></div>
+    <div class="small-star" style="--left:50%;--delay:.7s"></div>
+    <div class="small-star" style="--left:60%;--delay:.1s"></div>
+    <div class="small-star" style="--left:70%;--delay:.6s"></div>
+    <div class="small-star" style="--left:80%;--delay:1.4s"></div>
+    <div class="small-star" style="--left:90%;--delay:.9s"></div>
+    <div class="small-star" style="--left:100%;--delay:.1s"></div>
+
+    <h1 class="wish-title">
+        <span class="wish-letter">M</span>
+        <span class="wish-letter">e</span>
+        <span class="wish-letter">r</span>
+        <span class="wish-letter">r</span>
+        <span class="wish-letter">y&nbsp;&nbsp;</span>
+        <span class="wish-letter">C</span>
+        <span class="wish-letter">h</span>
+        <span class="wish-letter">r</span>
+        <span class="wish-letter">i</span>
+        <span class="wish-letter">s</span>
+        <span class="wish-letter">t</span>
+        <span class="wish-letter">m</span>
+        <span class="wish-letter">a</span>
+        <span class="wish-letter">s</span>
+    </h1>
+
+    <a href="#" class="the-blood-coders__learn-it-btn" target="_blank">
+        <i class="ri-youtube-fill the-blood-coders__btn-icon"></i>
+        Learn it
+    </a>
+
+
+    <div class="the-blood-coders__backdrop">
+        <div class="the-blood-coders__popup">
+            <a href="#" class="the-blood-coders__popup-header" target="_blank">
+                <i class="ri-youtube-fill the-blood-coders__btn-icon"></i>TheBloodCoders
+            </a>
+
+            <h1 class="the-blood-coders__code-name">
+                <span class="the-blood-coders__code-name--span">Code_Name
+            </h1>
+
+            <a href="#" class="the-blood-coders__link" target="_blank">#</a>
+            <a href="#" class="the-blood-coders__ok-btn">Ok</a>
+        </div>
+    </div>
+
+    <script>
+        const btnOk = document.querySelector('.the-blood-coders__ok-btn');
+
+        btnOk.addEventListener('click', (e) => {
+            e.target.closest('.the-blood-coders__backdrop').remove();
+        });
+    </script>
+
+
+</body>
+</html>

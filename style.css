@@ -27,7 +27,6 @@ body{
     flex-direction: column;
     overflow: hidden;
     background-image: var(--color-bg);
-    
     background-size: 200% 200%;
     animation: bg-animation 6s ease infinite;
 }
@@ -214,13 +213,7 @@ body{
     z-index: 2;
 }
 
-.small-star:nth-child(2),
-.small-star:nth-child(6),
-.small-star:nth-child(8){
-    width: 1rem;
-    height: 1rem;
-    filter: blur(10px);
-}
+
 
 @keyframes falling-star{
     0%{
@@ -315,12 +308,6 @@ body{
           box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
 }
 
-.the-blood-coders__learn-it-btn:active {
-  -webkit-box-shadow: 0 0 0rem rgba(0, 0, 0, 0);
-          box-shadow: 0 0 0rem rgba(0, 0, 0, 0);
-  -webkit-transform: translateX(-50%) scale(0.99);
-          transform: translateX(-50%) scale(0.99);
-}
 
 .the-blood-coders__btn-icon {
   font-size: 1.6em;

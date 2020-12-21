@@ -246,6 +246,7 @@ body{
     animation: updown .8s infinite;
 }
 
+.wish-letter:nth-of-type(4),
 .wish-letter:nth-of-type(2),
 .wish-letter:nth-of-type(7),
 .wish-letter:nth-of-type(13){
@@ -260,7 +261,6 @@ body{
 
 .wish-letter:nth-of-type(5),
 .wish-letter:nth-of-type(10),
-.wish-letter:nth-of-type(4),
 .wish-letter:nth-of-type(9),
 .wish-letter:nth-of-type(14){
     animation: updown .8s .1s infinite;

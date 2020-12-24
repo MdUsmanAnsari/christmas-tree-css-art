@@ -31,6 +31,7 @@ body {
   background-size: 200% 200%;
   -webkit-animation: bg-animation 6s ease infinite;
           animation: bg-animation 6s ease infinite;
+  -webkit-tap-highlight-color: transparent;
 }
 
 @-webkit-keyframes bg-animation {
